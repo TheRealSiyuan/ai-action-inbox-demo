@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+/*
+ * A small, restrained token set. Two greys, one accent, and semantic colours
+ * for the three action states — enough for clear hierarchy without decoration.
+ */
+@theme {
+  --color-canvas: oklch(0.985 0.002 250);
+  --color-surface: oklch(1 0 0);
+  --color-line: oklch(0.922 0.004 250);
+  --color-line-strong: oklch(0.87 0.006 250);
+  --color-ink: oklch(0.22 0.012 260);
+  --color-ink-muted: oklch(0.52 0.012 260);
+  --color-ink-subtle: oklch(0.63 0.01 260);
+  --color-accent: oklch(0.53 0.16 262);
+  --color-accent-hover: oklch(0.47 0.16 262);
+  --color-accent-soft: oklch(0.96 0.02 262);
+
+  --color-positive: oklch(0.52 0.13 155);
+  --color-positive-soft: oklch(0.96 0.03 155);
+  --color-negative: oklch(0.53 0.17 25);
+  --color-negative-soft: oklch(0.96 0.03 25);
+  --color-caution: oklch(0.52 0.11 75);
+  --color-caution-soft: oklch(0.96 0.04 85);
+
+  --font-sans: ui-sans-serif, system-ui, sans-serif;
+  --font-mono: ui-monospace, monospace;
+}
+
+html {
+  background: var(--color-canvas);
+}
+
+body {
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* One focus treatment everywhere, so keyboard users always see the same thing. */
+:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
