@@ -34,6 +34,8 @@ The original sample text is available under **Read original sample message**. Th
 
 ## What this demonstrates
 
+Validation: 156 automated tests passed, alongside type checking, linting, production build, HTTP workflow and privacy checks.
+
 - A typed planner boundary with schema validation; planner output cannot set approval or execution state.
 - A deterministic state machine and approval bound to the reviewed payload with an ephemeral server-side signature.
 - Material edits revoke approval. Execution checks the server-held action and rejects forged, missing or stale approvals.
