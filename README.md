@@ -65,5 +65,3 @@ npm run test:smoke
 ```
 
 Tests cover state transitions, approval binding, malformed planner output, prompt injection, multiple actions, the sample-only API, editing, reset and simulated execution. The privacy scanner checks distributable text and app capabilities; dependencies and generated build files are excluded.
-
-See **INCLUDED-FILES.md** for the exact upload inventory and **VALIDATION.md** for checks performed on this package. Upload this folder's contents while preserving subfolders. Do not upload generated `node_modules/`, `.next/` or local environment files.
