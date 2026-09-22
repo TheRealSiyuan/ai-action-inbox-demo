@@ -65,3 +65,5 @@ npm run test:smoke
 ```
 
 Tests cover state transitions, approval binding, malformed planner output, prompt injection, multiple actions, the sample-only API, editing, reset and simulated execution. The privacy scanner checks distributable text and app capabilities; dependencies and generated build files are excluded.
+
+See VALIDATION.md for the checks performed on this public demo.
