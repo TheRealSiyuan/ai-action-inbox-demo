@@ -1,6 +1,6 @@
 # Action Inbox — runnable public demo
 
-A local, interactive demonstration of turning incoming work into reviewable actions. All seven inbox messages are fictional. The assistant uses deterministic rules, not a live language model. Execution is simulated and explicitly labelled in the interface.
+A local, interactive demonstration of turning unstructured inbox messages into reviewable actions with explicit approval and execution controls. This privacy-safe public version uses a deterministic planner and seven fictional messages; the private project also includes local-model planning, inbox integrations and a broader evaluation suite. Execution in this demo is simulated.
 
 ## Run
 
